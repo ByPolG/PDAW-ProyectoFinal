@@ -1,57 +1,39 @@
-# AsturWare - Tu Tienda de Componentes Electrónicos en Línea
+# AsturWare - Tu Tienda Online Asturiana
 
-![AsturWare Logo](url_de_la_imagen_logo)
+![AsturWare Logo](https://i.imgur.com/xt3mS2w.png)
 
-Bienvenido a AsturWare, tu destino en línea para encontrar una amplia variedad de componentes electrónicos de alta calidad. En AsturWare, nos esforzamos por ofrecer una experiencia de compra conveniente y satisfactoria para entusiastas y profesionales de la electrónica.
+Bienvenido a AsturWare, tu destino en línea para encontrar una amplia variedad de componentes electrónicos de alta calidad. 
+En AsturWare, nos esforzamos por ofrecer una experiencia de compra conveniente y satisfactoria para entusiastas y profesionales de la electrónica.
 
 ## Funciones Principales
 
 ### Amplio Catálogo
-Explora nuestro extenso catálogo de componentes electrónicos que incluye, pero no se limita a:
-- Resistencias
-- Transistores
-- Circuitos integrados
-- Sensores
-- Placas de desarrollo
-- Y mucho más...
+Explora nuestro extenso catálogo de componentes electrónicos que incluye:
+- Componentes
+- Periféricos
+- Ordenadores
 
 ### Navegación Intuitiva
-Nuestra interfaz de usuario fácil de usar te permite encontrar rápidamente los productos que necesitas. Filtra por categoría, marca o características específicas para simplificar tu búsqueda.
+Nuestra interfaz de usuario fácil de usar te permite encontrar rápidamente los productos que necesitas. Dirígete a la pestaña **Productos** y selecciona uno de los articulos que más te atraiga.
 
 ### Detalles del Producto
-Obtén información detallada sobre cada producto, incluidas especificaciones técnicas, hojas de datos y reseñas de clientes. Tomar decisiones informadas nunca ha sido tan fácil.
+Obtén información detallada sobre cada producto, incluidas especificaciones técnicas, precio y demás. Tomar decisiones informadas nunca ha sido tan fácil.
 
 ### Proceso de Compra Seguro
-Garantizamos un proceso de compra seguro y protegido. Aceptamos diversas formas de pago y ofrecemos opciones de envío rápido y confiable.
+Garantizamos un proceso de compra seguro y protegido.
 
 ## Capturas de Pantalla
 
-![Captura de pantalla de la Página Principal](https://i.imgur.com/1WNzCPH.jpg)
+![Captura de pantalla de la Página Principal](https://i.imgur.com/u1RXtxt.png)
 *Página Principal de AsturWare*
 
-![Captura de pantalla del Detalle del Producto](url_de_la_imagen_producto)
+![Captura de pantalla del Detalle del Producto](https://i.imgur.com/nidzgZv.png)
 *Detalles del Producto y Especificaciones*
 
-## Cómo Empezar
+Esta página es un proyecto de fin de grado para DAW, la página no requiere de ninguna base de datos.
 
-1. **Explora el Catálogo:** Navega por las categorías o utiliza la barra de búsqueda para encontrar productos específicos.
+Está alojada en **Amazon Web Services**, una plataforma de servicios en la nube ofrecida por Amazon, la cual proporciona una amplia gama de servicios, que incluyen almacenamiento, potencia de cómputo, bases de datos, etc.
 
-2. **Detalles del Producto:** Haz clic en un producto para obtener información detallada. Agrega tus productos deseados al carrito de compras.
+Sí fuese necesaria la inclusión de una base de datos, esta estaría preparada para ser utilizada en **Amazon Web Services**.
 
-3. **Proceso de Pago:** Completa el proceso de pago de forma segura. Asegúrate de revisar tu pedido antes de confirmar la compra.
-
-4. **Seguimiento de Envío:** Utiliza nuestro sistema de seguimiento para monitorear el estado de tu pedido en tiempo real.
-
-## Contribuciones y Problemas
-
-¡Nos encantaría recibir tus contribuciones y comentarios! Si encuentras algún problema o tienes ideas para mejorar AsturWare, no dudes en [crear un problema](url_del_repositorio/issues) en nuestro repositorio.
-
-## Contacto
-
-Para cualquier pregunta o asistencia, contáctanos en support@asturware.com.
-
-¡Gracias por elegir AsturWare para tus necesidades de componentes electrónicos!
-
----
-
-**AsturWare - Donde la Electrónica se Encuentra con la Calidad.**
+*Copyright 2023 Pablo Fernández Barredo*
