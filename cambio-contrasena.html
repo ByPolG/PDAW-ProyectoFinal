@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTURWARE - Cambiar contraseña</title>
+    <link rel="stylesheet" href="assets/css/contrasena.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div id="contenedor">
+        <div id="central">
+            <div id="login">
+                <div class="titulo">
+                    Cambio de Contraseña
+                </div>
+                <form id="loginform" onsubmit="return cambiarContrasena()">
+                    <input type="text" name="correo" placeholder="Correo electrónico" required>
+                    <input type="password" placeholder="Nueva contraseña" name="password" required>
+                    <input type="password" placeholder="Confirmar contraseña" name="newpassword" required>
+                    <button type="submit" title="Cambiar contraseña">Cambiar contraseña</button>
+                </form>
+                <div class="pie-form">
+                    <a href="inicio-sesion.html">« Cancelar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/contrasena.js"></script>
+</body>
+
+</html>

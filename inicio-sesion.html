@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTURWARE - Iniciar Sesión</title>
+    <link rel="stylesheet" href="assets/css/inicioSesion.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">    
+</head>
+<body>
+    <div id="contenedor">
+        <div id="contenedorcentrado">
+            <div id="login">
+                <form id="loginform" onsubmit="return iniciarSesion()">
+                    <label for="usuario">Correo</label>
+                    <input id="usuario" type="text" name="usuario" placeholder="Escribe tu correo..." required>
+                    <label for="password">Contraseña</label>
+                    <input id="password" type="password" placeholder="Escribe la contraseña..." name="password" required>
+                    <button type="submit" title="Iniciar sesión" name="IniciarSesion">Iniciar sesión</button>
+                </form>
+            </div>
+            <div id="derecho">
+                <div class="titulo">Bienvenido</div>
+                <hr>
+                <div class="pie-form">
+                    <a href="cambio-contrasena.html">¿Has olvidado tu contraseña?</a>
+                    <a href="registro.html">¿No tienes Cuenta? Registrate</a>
+                    <hr>
+                    <a href="index.html">« Menú Principal</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/iniciar-sesion.js"></script>
+</body>
+</html>
+

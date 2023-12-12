@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTURWARE - Productos</title>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/menu.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+  </head>
+
+  <body id="productos">
+    <header class="main-header">
+
+      <a class="main-logo" href="index.html">
+        <img src="assets/img/recursos/logo.PNG" alt="">
+      </a>
+
+      <nav id="nav" class="main-nav">
+        <div class="nav-links">
+          <a class="link-item" href="nosotros.html">Nosotros</a>
+          <a class="link-item" href="productos.html">Productos</a>
+          <a class="link-item" href="contacto.html">Contacto</a>
+          <a class="car link-item" >
+            <img src="assets/img/recursos/cesta.png" alt=""></a>
+              <div id="carrito" class="dropdown-menu">
+                <table id="lista-carrito" class="table">
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+
+                <a href="#" id="vaciar-carrito" class="button-vaciar">Vaciar Carrito</a>
+                <a href="#" id="procesar-pedido" class="button-pedido">Procesar Compra</a>
+            </div>
+          </a>
+          <a class="link-item" href="inicio-sesion.html">
+            <img src="assets/img/recursos/iniciar_s.png" alt="">
+          </a>
+        </div>
+      </nav>
+      <button onclick="closeOrShow()" id="button-menu" class="button-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+
+<main>
+
+        <div class="modal" id="modal">
+          <div class="modal-content">
+            <img src="" alt="" class="modal-img" id="modal-img">
+          </div>
+          <div class="modal-boton" id="modal-boton">X</div>
+        </div>
+
+        <div class="container-productos" id="lista-productos">
+
+          <div class="card">
+            <img src="assets/img/productos/componentes/tarjeta.png" class="card-img">
+            <h5>MSI GeForce RTX 3080 Ti</h5>
+            <p>COD.Producto: ROP0000074</p>
+            <p class="precio">1927,13€</p>
+            <a href="#" class="button agregar-carrito" data-id="1">Agregar</a>
+          </div>
+          <div class="card">
+            <img src="assets/img/productos/componentes/procesador.png" class="card-img">
+            <h5>Intel Procesador Core i9-12900KS</h5>
+            <p>COD.Producto: JUG0000005</p>
+            <p class="precio">539,90€</p>
+            <a href="#" class="button agregar-carrito" data-id="2">Agregar</a>
+          </div>
+          <div class="card">
+            <img src="assets/img/productos/componentes/disco.png" class="card-img">
+            <h5>Samsung 870 QVO 1 TB</h5>
+            <p>COD.Producto: BPY4UND</p>
+            <p class="precio">70,86€</p>
+            <a href="#" class="button agregar-carrito" data-id="3">Agregar</a>
+          </div>
+
+          <div class="card">
+            <img src="assets/img/productos/perifericos/raton.png" class="card-img">
+            <h5>Razer Naga Trinity</h5>
+            <p>COD.Producto: DDMB7U70GR</p>
+            <p class="precio">84,14€</p>
+            <a href="#" class="button agregar-carrito" data-id="4">Agregar</a>
+          </div>
+          <div class="card">
+            <img src="assets/img/productos/perifericos/teclado.png" class="card-img">
+            <h5>Razer BlackWidow V4 Pro</h5>
+            <p>COD.Producto: HDB04</p>
+            <p class="precio">269,99€</p>
+            <a href="#" class="button agregar-carrito" data-id="5">Agregar</a>
+          </div>
+          <div class="card">
+            <img src="assets/img/productos/perifericos/cascos.png" class="card-img">
+            <h5>Razer Kraken V3 Pro</h5>
+            <p>COD.Producto: ROP0000023</p>
+            <p class="precio">198,98€</p>
+            <a href="#" class="button agregar-carrito" data-id="6">Agregar</a>
+          </div>
+
+          <div class="card">
+            <img src="assets/img/productos/ordenadores/alien.png" class="card-img">
+            <h5>Dell Alienware m15 R2 Negro</h5>
+            <p>COD.Producto: AP-D794-011</p>
+            <p class="precio">3908,92€</p>
+            <a href="#" class="button agregar-carrito" data-id="7">Agregar</a>
+          </div>
+          <div class="card">
+            <img src="assets/img/productos/ordenadores/acer.png" class="card-img">
+            <h5>Acer Chromebook 314 CB314-2HT</h5>
+            <p>COD.Producto: HTD-TSH023-1</p>
+            <p class="precio">299,99€</p>
+            <a href="#" class="button agregar-carrito" data-id="8">Agregar</a>
+          </div>
+          <div class="card">
+            <img src="assets/img/productos/ordenadores/asus.png" class="card-img">
+            <h5>ASUS VivoBook 15 F1500EA-EJ3100</h5>
+            <p>COD.Producto: HPDMT</p>
+            <p class="precio">369,00€</p>
+            <a href="#" class="button agregar-carrito" data-id="9">Agregar</a>
+          </div>
+
+        </div>
+</main>
+  
+
+<footer class="footer-section">
+  <div class="copyright-area">
+      <div class="container-footer">
+          <div class="row-footer">
+              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                  <div class="copyright-text">
+                      <p>Copyright &copy; 2023, Pablo Fernández Barredo</p>
+                  </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                  <div class="footer-menu">
+                      <ul>
+                          <li><a href="nosotros.html">Nosotros</a></li>
+                          <li><a href="productos.html">Productos</a></li>
+                          <li><a href="contacto.html">Contacto</a></li>
+                          <li>Síguenos: 
+                            <a href="https://www.youtube.com/" class="nav-link"><img src="assets/img/redes_sociales/youtube.png" alt=""></a>
+                            <a href="https://es-es.facebook.com/" class="nav-link"><img src="assets/img/redes_sociales/facebook.png" alt=""></a>
+                            <a href="https://twitter.com/?lang=es" class="nav-link"><img src="assets/img/redes_sociales/twitter.png" alt=""></a>
+                            <a href="https://www.instagram.com/by_pol_g/" class="nav-link"><img src="assets/img/redes_sociales/insta.png" alt=""></a>
+                          </li>
+                      </ul>
+
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>   
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/carrito.js"></script>
+    <script src="assets/js/pedido.js"></script>
+    <script src="assets/js/compra.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/main-iniciar-sesion.js"></script>
+</body>
+</html>

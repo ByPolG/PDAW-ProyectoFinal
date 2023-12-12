@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTURWARE - Carrito</title>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/menu.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+
+  <body id="principal">
+
+    <header class="main-header">
+      <a class="main-logo" href="index.html">
+        <img src="assets/img/recursos/logo.PNG" alt="">
+      </a>
+      <nav id="nav" class="main-nav">
+        <div class="nav-links">
+          <a class="link-item" href="nosotros.html">Nosotros</a>
+          <a class="link-item" href="productos.html">Productos</a>
+          <a class="link-item" href="contacto.html">Contacto</a>
+          <a class="link-item" href="carrito.html">
+            <img src="assets/img/recursos/cesta.png" alt="">
+          </a>
+          <a class="link-item" href="inicio-sesion.html">
+            <img src="assets/img/recursos/iniciar_s.png" alt="">
+          </a>
+        </div>
+      </nav>
+      <button onclick="closeOrShow()" id="button-menu" class="button-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main>
+      <div class="container-carrito">
+              
+                  <h2>Procesar Compra</h2>
+                  <form id="procesar-pago" action="#" method="POST">
+                      <div class="contenido titulo">
+                          <label for="cliente" class="">Cliente:</label>
+                          <input type="text" class="form-control" id="cliente" name="cliente" placeholder="Introduce tu nombre" onkeypress="return sololetras(event)" onpaste="return false" required>
+                      </div>
+                      <div class="contenido titulo">
+                          <label for="email" class="">Correo:</label>
+                          <input type="email" class="form-control" id="correo" name="correo" placeholder="Introduce tu correo electrónico" required>
+                      </div>
+
+                      <div id="carrito" class="contenido">
+                          <table class="tabla" id="lista-compra">
+                              <thead>
+                                  <tr>
+                                      <th scope="col">Imagen</th>
+                                      <th scope="col">Nombre</th>
+                                      <th scope="col">Precio</th>
+                                      <th scope="col">Cantidad</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+
+                              </tbody>
+                              <tr>
+                                  <th colspan="4" scope="col" class="">TOTAL :</th>
+                                  <th scope="col">
+                                    <input type="text" id="total" name="monto_total" readonly>
+                                  </th>
+                              </tr>
+                          </table>
+                      </div>
+
+                      <div class="" id="loaders">
+                          <img id="cargando" src="assets/img/recursos/cargando.gif" width="220">
+                      </div>
+
+                      <div class="botones-envio">
+                              <a href="productos.html" class="button" id="volver">Continuar comprando</a>
+                              <input type="submit" class="button" id="procesar-compra" onclick="validarCorreo(form.correo.value)"value="Realizar compra">
+                      </div>
+                  </form>
+
+      </div>
+  </main>
+    
+  <footer class="footer-section">
+    <div class="copyright-area">
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2023, Pablo Fernández Barredo</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="nosotros.html">Nosotros</a></li>
+                            <li><a href="productos.html">Productos</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                            <li>Síguenos: 
+                              <a href="https://www.youtube.com/" class="nav-link"><img src="assets/img/redes_sociales/youtube.png" alt=""></a>
+                              <a href="https://es-es.facebook.com/" class="nav-link"><img src="assets/img/redes_sociales/facebook.png" alt=""></a>
+                              <a href="https://twitter.com/?lang=es" class="nav-link"><img src="assets/img/redes_sociales/twitter.png" alt=""></a>
+                              <a href="https://www.instagram.com/by_pol_g/" class="nav-link"><img src="assets/img/redes_sociales/insta.png" alt=""></a>
+                            </li>
+                        </ul>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>    
+
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script  src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script  src="assets/js/scripts.js"></script>
+    <script src="assets/js/carrito.js"></script>
+    <script src="assets/js/pedido.js"></script>
+    <script src="assets/js/compra.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/main-iniciar-sesion.js"></script>
+
+</body>
+</html>
+
